@@ -1,2 +1,2 @@
 # top_repos
-Crawl &amp; Stats top repos of each programming language
+Crawl &amp; Stats top repos of each programming language at github
