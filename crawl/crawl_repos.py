@@ -100,6 +100,7 @@ def crawl_all_language_repos():
     for each_lanuange_info in language_list:
         try:
             language_name, language_url = each_lanuange_info
+            print 'crawling %s' % language_name
             language_repos = crawl_repos_by_language(each_lanuange_info)
             save_each_language_repos(language_name, language_repos)
         except Exception, e:
